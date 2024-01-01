@@ -5,7 +5,6 @@ import com.in.abhishek.learnspringframework.game.MarioGame;
 import com.in.abhishek.learnspringframework.game.PacManGame;
 import com.in.abhishek.learnspringframework.game.SuperContraGame;
 
-@SuppressWarnings("unused")
 public class App01GamingBasicJava {
 
 	public static void main(String[] args) {
