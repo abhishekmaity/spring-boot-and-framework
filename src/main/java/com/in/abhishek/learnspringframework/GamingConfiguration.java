@@ -1,6 +1,5 @@
 package com.in.abhishek.learnspringframework;
 
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -8,7 +7,7 @@ import com.in.abhishek.learnspringframework.game.GameRunner;
 import com.in.abhishek.learnspringframework.game.GamingConsole;
 import com.in.abhishek.learnspringframework.game.PacManGame;
 
-@SpringBootApplication
+
 @Configuration
 public class GamingConfiguration {
 
