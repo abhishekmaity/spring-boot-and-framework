@@ -14,4 +14,10 @@ public class PacManGame implements GamingConsole{
 	public void right() {
 		System.out.println("Right");
 	}
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

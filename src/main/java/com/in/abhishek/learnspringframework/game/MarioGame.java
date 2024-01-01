@@ -14,4 +14,10 @@ public class MarioGame implements GamingConsole{
 	public void right() {
 		System.out.println("Accelerate");
 	}
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

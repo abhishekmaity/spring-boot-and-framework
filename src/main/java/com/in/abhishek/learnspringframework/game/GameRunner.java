@@ -15,4 +15,9 @@ public class GameRunner {
 		game.right();
 	}
 
+	public void setGamingConsole(GamingConsole mockGamingConsole) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
