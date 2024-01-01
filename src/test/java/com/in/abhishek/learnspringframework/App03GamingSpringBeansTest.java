@@ -1,14 +1,14 @@
 package com.in.abhishek.learnspringframework;
 
-import com.in.abhishek.learnspringframework.game.GameRunner;
-import com.in.abhishek.learnspringframework.game.GamingConsole;
+import static org.mockito.Mockito.mock;
+
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.annotation.Import;
 
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.verify;
+import com.in.abhishek.learnspringframework.game.GameRunner;
+import com.in.abhishek.learnspringframework.game.GamingConsole;
 
 
 @SpringBootTest(classes = GamingConfiguration.class)
