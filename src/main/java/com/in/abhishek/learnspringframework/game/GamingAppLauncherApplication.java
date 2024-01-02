@@ -1,12 +1,9 @@
-package com.in.abhishek.learnspringframework;
+package com.in.abhishek.learnspringframework.game;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-
-import com.in.abhishek.learnspringframework.game.GameRunner;
-import com.in.abhishek.learnspringframework.game.GamingConsole;
 
 @Configuration
 @ComponentScan("com.in.abhishek.learnspringframework.game")

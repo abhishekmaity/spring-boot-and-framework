@@ -8,6 +8,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.annotation.Import;
 
 import com.in.abhishek.learnspringframework.game.GameRunner;
+import com.in.abhishek.learnspringframework.game.GamingAppLauncherApplication;
 import com.in.abhishek.learnspringframework.game.GamingConsole;
 
 
