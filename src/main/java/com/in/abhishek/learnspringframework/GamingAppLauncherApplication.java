@@ -10,11 +10,11 @@ import com.in.abhishek.learnspringframework.game.GamingConsole;
 
 @Configuration
 @ComponentScan("com.in.abhishek.learnspringframework.game")
-public class App03GamingSpringBeans {
+public class GamingAppLauncherApplication {
 
 	public static void main(String[] args) {
 		
-		try (var context = new AnnotationConfigApplicationContext(App03GamingSpringBeans.class)) {
+		try (var context = new AnnotationConfigApplicationContext(GamingAppLauncherApplication.class)) {
 			context.getBean(GamingConsole.class).up();
 			context.getBean(GameRunner.class).run();
 		} catch (BeansException e) {

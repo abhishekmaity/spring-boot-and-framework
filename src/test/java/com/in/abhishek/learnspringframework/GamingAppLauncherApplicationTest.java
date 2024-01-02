@@ -11,9 +11,9 @@ import com.in.abhishek.learnspringframework.game.GameRunner;
 import com.in.abhishek.learnspringframework.game.GamingConsole;
 
 
-@SpringBootTest(classes = App03GamingSpringBeans.class)
-@Import(App03GamingSpringBeans.class)
-class App03GamingSpringBeansTest {
+@SpringBootTest(classes = GamingAppLauncherApplication.class)
+@Import(GamingAppLauncherApplication.class)
+class GamingAppLauncherApplicationTest {
 
     @Autowired
     private GamingConsole gamingConsole;
