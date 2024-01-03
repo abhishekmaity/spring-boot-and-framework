@@ -1,7 +1,5 @@
 package com.in.abhishek.learnspringframework.examples.a3;
 
-import java.util.Arrays;
-
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
