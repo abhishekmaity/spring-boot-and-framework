@@ -17,6 +17,7 @@ public class XmlConfigurationContextLauncherApplication {
 				new ClassPathXmlApplicationContext("contextConfiguration.xml")) {
 			Arrays.stream(context.getBeanDefinitionNames())
 				.forEach(System.out::println);
+			System.out.println(context.getBean("name"));
 		} catch (BeansException e) {
 			e.printStackTrace();
 		}
